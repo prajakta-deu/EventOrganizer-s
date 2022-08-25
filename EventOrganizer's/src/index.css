@@ -1,0 +1,12 @@
+body {
+  /*background-image: linear-gradient(rgb(255,143,177,100%),rgba(236, 213, 220, 0.943));*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(255,143,177,100%) 0%, rgba(236, 213, 220, 0.943) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
