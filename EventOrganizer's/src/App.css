@@ -1,51 +1,124 @@
-/*body{*/
-/*    background-image: url("reg.jpg");*/
-/*    background-size: cover;*/
-/*    background-repeat: no-repeat;*/
-/*    */
-/*}*/
-/*.h1{*/
-/*width: 800px;*/
-/*background-color: rgb(0,0,0,6);*/
-/*margin: auto;*/
-/*color: #ffffff;*/
-/*padding: 10px 0px 10px 0px;*/
-/*text-align: center;*/
-/*border-radius: 15px 15px 0px 0px;*/
-/*}*/
 
-/*.col{*/
-/*    background-color: rgba(125, 78, 127, 0.5);*/
-/*    width: 800px;*/
-/*    height:1000px;*/
-/*    margin: auto;*/
-/*}*/
-/*.container{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    max-height: 2000px;*/
-/*    */
-/*}*/
-/*.form-label{*/
-/*    font-size: 25px;*/
-/*    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
-/*    */
-/*}*/
-/*.form-control{*/
-/*    font-size: 100px;*/
-/*    font-family: 'Times New Roman', Times, serif;*/
-/*}*/
 .white{
     color: white;
 }
-.regi-page{
+/* .regi-page{
 
-    background-image: url("https://cdn.pixabay.com/photo/2020/05/04/10/21/background-5128586_960_720.jpg");
-}
+    background-image: url("https://i.pinimg.com/originals/c3/76/47/c37647d3cd724c0dc86a7db7627eaba5.jpg");
+    height: 600px;
+} */
 .register{
-    margin-top: 60px;
+    margin-top: 100px;
     background-color: hsla(0, 0%, 0%, 0.32);
+    width: 500px;
     text-align: center;
 
+}
+
+.white{
+    color: white;
+}
+/* .login-page{
+
+    background-image: url("https://t3.ftcdn.net/jpg/03/08/13/12/360_F_308131267_unLRF2JmPsjjXgrMRaFA3aEnrKa9aUxK.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    
+} */
+.login{
+    margin-top: 100px;
+    background-color: hsla(0, 0%, 0%, 0.32);
+    width: 500px;
+    text-align: center;
+
+}
+
+.hm1{
+    margin-top: 100px;
+    margin-left:100px ;
+}
+.hm2{
+    margin-top: 200px;
+    margin-left:100px ;
+}
+.hm3{
+    margin-top: 200px;
+    margin-left:100px ;
+}
+.about-section{
+    background: url("https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Anime-Wallpaper-HD.jpg") no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+   
+}
+
+.inner-container{
+    width: 600px;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    
+    
+}
+
+.know{
+    margin-top: 50px;
+}
+/* services */
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.theme-text {
+  color: #474af0;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+}
+.card {
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card:hover {
+  color: white;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  background: #474af0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+}
+.card:hover::before {
+  left: 0%;
+  color: white;
+}
+.container-fluid {
+  background-image: url("https://i.pinimg.com/originals/d1/40/ee/d140ee99255082f1e892d7fa1457fc8a.jpg");
+  background-position: center;
+  background-size: cover;
+     
+ 
+  
 }

@@ -9,13 +9,15 @@ const Home=()=>{
         <>
          {/*<Navbar/>*/}
          <Header/>
-        <div class="container ">
+         <div className="hm1">
+        
+        <div className="container ">
           
-  <div class="row">
-    <div class="col">
+  <div className="row">
+    <div className="col mt-4">
     <Lottie animationData={anim1} loop={true}  />
     </div>
-    <div class="col">
+    <div className="col mt-5">
     <h1 ><b>
     Communication with customer
         </b>
@@ -27,11 +29,16 @@ const Home=()=>{
     
   </div>
   </div>
+  
+  </div>
 
 
 
-  <div class="row">
-    <div class="col ">
+  <div className="row">
+    <div className="col">
+      <div className="hm2" >
+
+    
     <h1 ><b>
     Systematic arrangement
         </b>
@@ -40,18 +47,23 @@ const Home=()=>{
    Organized well plan event and proper arrangement of event as well as proper time management,we maintain cleanliness because cleanliness is next to godliness..!!! 
    </h4>
     </div>
-    <div class="col">
+    </div>
+    <div className="col">
     <Lottie animationData={anim2} loop={true} style={{height:"650px" ,width:"600px"}} />
     </div>
     
   </div>
 
-  <div class="row">
-    <div class="col">
+
+ 
+  
+  <div className="row">
+    <div className="col">
     <Lottie animationData={anim3} loop={true} />;
    
     </div>
-    <div class="col">
+    <div className="col">
+      <div className="hm3">
     <h1 ><b>
         Online enquiries
         </b>
@@ -63,7 +75,8 @@ const Home=()=>{
     </div>
     
   </div>
-
+  </div>
+  
         </>
     )
 }
