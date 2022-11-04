@@ -1,0 +1,382 @@
+/* registration */
+.white{
+    color: white;
+}
+/* .regi-page{
+
+    background-image: url("https://i.pinimg.com/originals/c3/76/47/c37647d3cd724c0dc86a7db7627eaba5.jpg");
+    height: 600px;
+} */
+.register{
+    margin-top: 100px;
+    background-color: hsla(0, 0%, 0%, 0.32);
+    width: 500px;
+    text-align: center;
+
+}
+
+.white{
+    color: white;
+}
+
+/* .login-page{
+
+    background-image: url("https://t3.ftcdn.net/jpg/03/08/13/12/360_F_308131267_unLRF2JmPsjjXgrMRaFA3aEnrKa9aUxK.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    
+} */
+
+/* login */
+.login{
+    margin-top: 100px;
+    background-color: hsla(0, 0%, 0%, 0.32);
+    width: 500px;
+    text-align: center;
+
+}
+
+/* home */
+.hm1{
+    margin-top: 100px;
+    margin-left:100px ;
+}
+.hm2{
+    margin-top: 200px;
+    margin-left:100px ;
+} 
+.hm3{
+    margin-top: 100px;
+    margin-left:100px ;
+}
+.sim{
+  margin-top: 10px;
+}
+.about-section{
+    background: url("https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Anime-Wallpaper-HD.jpg") no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+   
+}
+
+.inner-container{
+    width: 600px;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    
+    
+}
+
+.know{
+    margin-top: 50px;
+}
+
+/* services */
+ @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.theme-text {
+  color: #474af0;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+}
+.card {
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card:hover {
+  color: white;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  background: #474af0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+}
+.card:hover::before {
+  left: 0%;
+  color: white;
+}
+.container-fluid {
+  background-image: url("https://i.pinimg.com/originals/d1/40/ee/d140ee99255082f1e892d7fa1457fc8a.jpg");
+  background-position: center;
+  background-size: cover;
+ 
+} */
+
+
+/* team */
+.whos-speaking-area .speakers {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+}
+.whos-speaking-area .speakers:hover {
+  -webkit-box-shadow: 0 0 6px 5px #ddd;
+  box-shadow: 0 0 6px 5px #ddd;
+  border-radius: 6px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  border: 1px solid #dee2e6;
+}
+.whos-speaking-area .speakers .spk-img {
+  position: relative;
+}
+.whos-speaking-area .speakers .spk-img:before {
+  background: rgba(91, 69, 213, 0.8);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: 5;
+}
+.whos-speaking-area .speakers .spk-img:hover:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.whos-speaking-area .speakers .spk-img img {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.whos-speaking-area .speakers .spk-img ul {
+  position: absolute;
+  display: inline-block;
+  top: 35%;
+  left: 40%;
+  width: 100px;
+  line-height: 3;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.whos-speaking-area .speakers .spk-img ul:before {
+  position: absolute;
+  content: "";
+  height: 110px;
+  width: 110px;
+  background: transparent;
+  top: -15%;
+  left: -15px;
+  border: 1px solid #fff;
+  -webkit-transform: rotate(44deg) scale(1.4);
+  -ms-transform: rotate(44deg) scale(1.4);
+  transform: rotate(44deg) scale(1.4);
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.whos-speaking-area .speakers .spk-img ul li {
+  display: inline-block;
+  margin: 0 3px;
+  -webkit-transform: perspective(50px) rotatey(80deg);
+  transform: perspective(50px) rotatey(80deg);
+  -webkit-transition: all 0.5s ease 0.2s;
+  -o-transition: all 0.5s ease 0.2s;
+  transition: all 0.5s ease 0.2s;
+  margin: 0 5px;
+}
+.whos-speaking-area .speakers .spk-img ul li a i.fa {
+  color: rgba(255, 78, 0, 0.8);
+  font-size: 18px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  width: 28px;
+  color: #fff;
+  height: 28px;
+  line-height: 21px;
+  text-align: center;
+}
+.whos-speaking-area .speakers .spk-img ul li a i.fa:hover {
+  color: #cf057c;
+}
+.whos-speaking-area .speakers .spk-img ul li:nth-child(1) {
+  -webkit-transform: translate3d(-53px, -50px, 0);
+  transform: translate3d(-53px, -50px, 0);
+}
+.whos-speaking-area .speakers .spk-img ul li:nth-child(2) {
+  -webkit-transform: translate3d(53px, -50px, 0);
+  transform: translate3d(53px, -50px, 0);
+}
+.whos-speaking-area .speakers .spk-img ul li:nth-child(3) {
+  -webkit-transform: translate3d(-53px, 50px, 0);
+  transform: translate3d(-53px, 50px, 0);
+}
+.whos-speaking-area .speakers .spk-img ul li:nth-child(4) {
+  -webkit-transform: translate3d(53px, 50px, 0);
+  transform: translate3d(53px, 50px, 0);
+}
+.whos-speaking-area .speakers .spk-img:hover ul {
+  left: 35%;
+  opacity: 1;
+  z-index: 9;
+}
+.whos-speaking-area .speakers .spk-img:hover ul:before {
+  opacity: 1;
+  -webkit-transform: rotate(44deg) scale(1);
+  -ms-transform: rotate(44deg) scale(1);
+  transform: rotate(44deg) scale(1);
+}
+.whos-speaking-area .speakers .spk-img:hover ul li:nth-child(1),
+.whos-speaking-area .speakers .spk-img:hover ul li:nth-child(2),
+.whos-speaking-area .speakers .spk-img:hover ul li:nth-child(3),
+.whos-speaking-area .speakers .spk-img:hover ul li:nth-child(4) {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.whos-speaking-area .speakers .spk-info {
+  text-align: center;
+  padding: 30px 0;
+}
+.whos-speaking-area .speakers .spk-info h3 {
+  color: #252525;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  text-transform: capitalize;
+}
+.whos-speaking-area .speakers .spk-info h3:hover {
+  color: #4125dd;
+}
+.whos-speaking-area .speakers .spk-info p {
+  font-size: 15px;
+  margin-bottom: 0;
+  color: #656565;
+}
+
+.whos-speaking-area-two .title-text h2 {
+  color: #fff;
+}
+
+.whos-speaking-area-two .speakers {
+  position: relative;
+  overflow: hidden;
+}
+.whos-speaking-area-two .speakers:hover img {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+.whos-speaking-area-two .speakers img {
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.whos-speaking-area-two .speakers .img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: rgba(91, 69, 213, 0.9);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.whos-speaking-area-two .speakers:hover .img-overlay {
+  opacity: 1;
+}
+.whos-speaking-area-two .speakers .name a {
+  position: absolute;
+  bottom: -20%;
+  left: 10%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.whos-speaking-area-two .speakers .name a:hover {
+  color: #cf057c;
+}
+.whos-speaking-area-two .speakers:hover .name a {
+  bottom: 10%;
+}
+.whos-speaking-area-two .speakers .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 23%;
+  left: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.whos-speaking-area-two .speakers .social-icons li {
+  margin-right: 10px;
+}
+.whos-speaking-area-two .speakers .social-icons li a {
+  color: #fff;
+}
+.whos-speaking-area-two .speakers .social-icons li a:hover {
+  color: #252525;
+}
+.whos-speaking-area-two .speakers:hover .social-icons {
+  left: 27px;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.mb50 {
+  margin-bottom: 50px;
+}
+
+/*FOOTER BACKGROUND*/
+
+footer{
+  height: 200px;
+  margin-top: 20px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c475.518C87.387%2c471.377%2c145.098%2c387.586%2c219.179%2c341.049C294.232%2c293.901%2c393.355%2c276.555%2c438.315%2c200.172C484.38%2c121.913%2c485.034%2c20.965%2c458.751%2c-65.958C434.07%2c-147.584%2c357.896%2c-197.384%2c299.356%2c-259.393C243.599%2c-318.455%2c202.409%2c-401.288%2c123.606%2c-420.965C45.278%2c-440.523%2c-27.75%2c-380.934%2c-105.875%2c-360.579C-187.16%2c-339.401%2c-291.998%2c-364.107%2c-344.937%2c-298.89C-398.084%2c-233.416%2c-338.469%2c-133.603%2c-356.913%2c-51.316C-377.757%2c41.68%2c-486.253%2c118.28%2c-458.903%2c209.574C-432.265%2c298.492%2c-313.26%2c315.933%2c-232.949%2c362.475C-156.729%2c406.646%2c-87.995%2c479.688%2c0%2c475.518' fill='%230b2239'%3e%3c/path%3e%3cpath d='M1440 895.548C1505.214 887.335 1567.355 877.3969999999999 1628.532 853.361 1703.051 824.0830000000001 1793.2440000000001 808.71 1834.96 740.3720000000001 1877.228 671.129 1867.409 579.42 1842.9769999999999 502.061 1820.407 430.597 1754.806 386.38 1705.37 330.055 1656.307 274.154 1623.773 197.66899999999998 1553.766 172.54700000000003 1482.742 147.05900000000003 1406.052 176.58999999999997 1333.274 196.526 1259.234 216.808 1183.685 236.887 1127.585 289.29 1068.0149999999999 344.935 1018.156 417.08000000000004 1010.3 498.218 1002.563 578.122 1049.166 650.321 1085.7060000000001 721.8009999999999 1120.728 790.311 1149.179 871.155 1218.261 905.033 1286.057 938.281 1365.0819999999999 904.9839999999999 1440 895.548' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  }
